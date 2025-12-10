@@ -1,8 +1,4 @@
 # Breeze Magezon Pagebuilder
 
-## Installation
-
-```bash
-composer require swissup/module-breeze-magezon-pagebuilder
-bin/magento setup:upgrade --safe-mode=1
-```
+This module is deprecated. Use https://github.com/breezefront/module-breeze-magezon-builder
+instead.
