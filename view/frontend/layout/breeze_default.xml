@@ -2,19 +2,6 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
-        <referenceBlock name="breeze.js">
-            <arguments>
-                <argument name="better_compatibility" xsi:type="array">
-                    <item name="Magezon_PageBuilder" xsi:type="boolean">false</item>
-                </argument>
-                <argument name="bundles" xsi:type="array">
-                    <item name="default" xsi:type="array">
-                        <item name="items" xsi:type="array">
-                            <item name="Magezon_PageBuilder/js/collapse" xsi:type="string">Swissup_BreezeMagezonPagebuilder/js/collapse</item>
-                        </item>
-                    </item>
-                </argument>
-            </arguments>
-        </referenceBlock>
+        <!-- This module no longer needed. Integration moved to swissup/module-breeze-magezon-builder -->
     </body>
 </page>
